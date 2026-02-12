@@ -27,7 +27,7 @@ const HeroSection = () => {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-3.5 bg-copper text-primary-foreground font-medium rounded hover:bg-copper-light transition-colors"
             >
-              Start a Conversation
+              Request Consultation
             </a>
             <a
               href="#services"

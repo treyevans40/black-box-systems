@@ -2,11 +2,12 @@ import { MapPin } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="bg-card border-b border-border">
+    <section id="about-us" className="bg-card border-b border-border">
       <div className="container py-20">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div>
             <p className="text-xs font-semibold text-copper uppercase tracking-[0.2em] mb-3">About Us</p>
+
             <h2 className="font-display text-2xl lg:text-3xl mb-4">
               Your project doesn't get handed off. It gets our full attention.
             </h2>
@@ -41,7 +42,7 @@ const AboutSection = () => {
           <div className="rounded overflow-hidden border border-border">
             <iframe
               title="Black Box Engineering Office Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8!2d-99.1732!3d19.4117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff5db48b0f0d%3A0x0!2sGral.+Benjam%C3%ADn+Hill+97%2C+Hip%C3%B3dromo+Condesa%2C+06170+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1sen!2smx!4v1700000000000!5m2!1sen!2smx"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661!2d-99.17479!3d19.41268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff76c1136b2f%3A0x5a7dbfb34e4e8b0!2sCalle+Gral.+Benjam%C3%ADn+Hill+97%2C+Hip%C3%B3dromo%2C+Cuauht%C3%A9moc%2C+06100+Ciudad+de+M%C3%A9xico%2C+CDMX%2C+Mexico!5e0!3m2!1sen!2smx!4v1700000000000!5m2!1sen!2smx"
               width="100%"
               height="450"
               style={{ border: 0 }}
