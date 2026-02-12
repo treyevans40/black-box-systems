@@ -7,7 +7,7 @@ const CTASection = () => {
             Let's talk about what's next — or what's not working now.
           </h2>
           <p className="text-primary-foreground/80 mb-10">
-            Whether you're planning a new build, optimizing existing operations, or dealing with controls problems that won't go away — we start every conversation by listening. No sales pitch. Tell us your pain points, your timeline, your budget constraints. We'll tell you what's realistic and how to reduce your operational spend.
+            Planning a new build or solving persistent controls issues, we start by listening. Tell us your constraints. We’ll tell you what’s realistic.
           </p>
           <a
             href="mailto:info@blackboxengineering.com"

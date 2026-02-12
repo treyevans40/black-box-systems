@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
             <span>© {new Date().getFullYear()} Black Box Engineering</span>
             <span className="hidden sm:inline">·</span>
-            <span>Mexico City · Texas · Global</span>
+            <span>Mexico City, DF, Mexico · Houston, Texas, USA · Global</span>
           </div>
           <div className="flex gap-6">
             <a href="#industries" className="hover:text-primary-foreground transition-colors">Industries</a>

@@ -23,18 +23,18 @@ const services = [
   },
   {
     icon: Zap,
-    title: "Electrical Installation (Controls / BMS)",
+    title: "Electrical Installation (Controls)",
     description: "Controls-focused electrical installation aligned with engineered designs and project standards.",
   },
   {
     icon: CheckSquare,
     title: "Commissioning & Startup Support",
-    description: "L1–L4/IST commissioning, logic validation, functional testing, and turnover readiness for operations.",
+    description: "Commissioning, logic validation, functional testing, and turnover readiness for operations.",
   },
   {
     icon: Shield,
     title: "Mission-Critical Commissioning",
-    description: "Specialized commissioning for data centers, hospitals, and critical facilities — including integrated systems testing, redundancy validation, and load transfer verification.",
+    description: "End-to-end commissioning for data centers, healthcare, and critical infrastructure;-- covering L1–L4 levels, Integrated Systems Testing (IST), failure scenario validation, redundancy verification, and full load transfer performance testing.",
   },
   {
     icon: Wrench,
