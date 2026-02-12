@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,48 +6,50 @@
 
 @layer base {
   :root {
-    /* Off-white base */
-    --background: 40 20% 97%;
-    --foreground: 215 25% 15%;
+    /* Warm cream base */
+    --background: 38 30% 96%;
+    --foreground: 220 30% 12%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card: 36 25% 93%;
+    --card-foreground: 220 30% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover-foreground: 220 30% 12%;
 
-    /* Steel blue accent */
-    --primary: 210 40% 35%;
-    --primary-foreground: 0 0% 100%;
+    /* Deep navy accent */
+    --primary: 220 45% 20%;
+    --primary-foreground: 38 30% 96%;
 
-    --secondary: 210 15% 92%;
-    --secondary-foreground: 215 25% 15%;
+    --secondary: 38 20% 88%;
+    --secondary-foreground: 220 30% 12%;
 
-    --muted: 210 10% 94%;
-    --muted-foreground: 215 12% 50%;
+    --muted: 35 15% 90%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 210 40% 35%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 220 45% 20%;
+    --accent-foreground: 38 30% 96%;
 
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 15% 88%;
-    --input: 210 15% 88%;
-    --ring: 210 40% 35%;
+    --border: 35 15% 82%;
+    --input: 35 15% 82%;
+    --ring: 220 45% 20%;
 
     --radius: 0.25rem;
 
     /* Custom tokens */
-    --slate-dark: 215 25% 15%;
-    --slate-mid: 215 12% 50%;
-    --slate-light: 210 10% 75%;
-    --surface-warm: 40 20% 97%;
-    --surface-cool: 210 15% 96%;
-    --steel: 210 40% 35%;
-    --steel-light: 210 30% 55%;
-    --steel-muted: 210 20% 80%;
-    --rule: 210 15% 88%;
+    --navy: 220 45% 20%;
+    --navy-light: 220 35% 35%;
+    --navy-muted: 220 20% 55%;
+    --sand: 38 30% 96%;
+    --sand-dark: 36 20% 85%;
+    --warm-gray: 30 10% 70%;
+    --copper: 25 60% 45%;
+    --copper-light: 25 40% 60%;
+    --surface-warm: 38 30% 96%;
+    --surface-card: 36 25% 93%;
+    --rule: 35 15% 82%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

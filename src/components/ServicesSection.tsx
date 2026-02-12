@@ -57,26 +57,26 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="bg-card border-b border-border">
+    <section id="services" className="bg-primary">
       <div className="container py-20">
-        <p className="text-sm font-medium text-steel uppercase tracking-widest mb-3">Services</p>
-        <h2 className="text-2xl lg:text-3xl font-semibold mb-4">
+        <p className="text-xs font-semibold text-copper uppercase tracking-[0.2em] mb-3">Services</p>
+        <h2 className="font-display text-2xl lg:text-3xl text-primary-foreground mb-4">
           Scope clarity before procurement.
         </h2>
-        <p className="text-muted-foreground max-w-2xl mb-12">
+        <p className="text-primary-foreground/60 max-w-2xl mb-14">
           Every engagement is scoped to deliver a clean, operator-ready handoff. No ambiguity in deliverables, no gaps in accountability.
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <div
               key={service.title}
-              className="border border-border rounded p-6"
+              className="border border-primary-foreground/10 rounded p-6 bg-primary-foreground/[0.03] hover:bg-primary-foreground/[0.06] transition-colors"
             >
-              <h3 className="text-base font-semibold mb-4">{service.title}</h3>
-              <ul className="space-y-2">
+              <h3 className="text-sm font-semibold text-primary-foreground mb-4">{service.title}</h3>
+              <ul className="space-y-2.5">
                 {service.bullets.map((bullet) => (
-                  <li key={bullet} className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <span className="mt-1.5 h-1 w-1 rounded-full bg-steel flex-shrink-0" />
+                  <li key={bullet} className="flex items-start gap-2.5 text-sm text-primary-foreground/55">
+                    <span className="mt-1.5 h-1 w-1 rounded-full bg-copper flex-shrink-0" />
                     {bullet}
                   </li>
                 ))}

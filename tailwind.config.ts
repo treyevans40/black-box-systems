@@ -15,6 +15,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["DM Serif Display", "Georgia", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -50,19 +51,23 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        steel: {
-          DEFAULT: "hsl(var(--steel))",
-          light: "hsl(var(--steel-light))",
-          muted: "hsl(var(--steel-muted))",
+        navy: {
+          DEFAULT: "hsl(var(--navy))",
+          light: "hsl(var(--navy-light))",
+          muted: "hsl(var(--navy-muted))",
         },
-        slate: {
-          dark: "hsl(var(--slate-dark))",
-          mid: "hsl(var(--slate-mid))",
-          light: "hsl(var(--slate-light))",
+        sand: {
+          DEFAULT: "hsl(var(--sand))",
+          dark: "hsl(var(--sand-dark))",
         },
+        copper: {
+          DEFAULT: "hsl(var(--copper))",
+          light: "hsl(var(--copper-light))",
+        },
+        "warm-gray": "hsl(var(--warm-gray))",
         surface: {
           warm: "hsl(var(--surface-warm))",
-          cool: "hsl(var(--surface-cool))",
+          card: "hsl(var(--surface-card))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
