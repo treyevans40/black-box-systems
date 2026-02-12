@@ -3,9 +3,8 @@ import {
   Factory,
   Package,
   Flame,
-  Bot,
   UtensilsCrossed,
-  FlaskConical,
+  Gauge,
 } from "lucide-react";
 
 const industries = [
@@ -30,19 +29,14 @@ const industries = [
     description: "Upstream, midstream, and downstream controls including well monitoring, pipeline SCADA, and refinery automation.",
   },
   {
-    icon: Bot,
-    title: "Robotics & Advanced Automation",
-    description: "Robotic cell integration, motion control, vision systems, and advanced manufacturing automation.",
-  },
-  {
     icon: UtensilsCrossed,
     title: "Food & Beverage",
     description: "Batch processing, CIP systems, recipe management, and compliance-driven controls for production environments.",
   },
   {
-    icon: FlaskConical,
-    title: "Pharmaceutical",
-    description: "GMP-compliant control systems, validation-ready documentation, cleanroom automation, and 21 CFR Part 11 support.",
+    icon: Gauge,
+    title: "Process Controls Engineering",
+    description: "Instrumentation, control system design, and process optimization for facilities managing continuous or batch operations — from upstream production and pipeline monitoring to water treatment, distribution, and environmental compliance.",
   },
 ];
 
