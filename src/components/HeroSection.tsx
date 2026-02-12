@@ -20,7 +20,7 @@ const HeroSection = () => {
             Designed. Integrated. Commissioned. Documented.
           </p>
           <p className="text-sm text-primary-foreground/40 mb-10">
-            Mexico City HQ &bull; Operations in Texas &bull; Serving clients globally
+            Mexico City HQ &bull; Operations in the US &bull; Serving clients globally
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
