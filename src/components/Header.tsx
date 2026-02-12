@@ -13,6 +13,7 @@ const Header = () => {
           <a href="#industries" className="hover:text-primary-foreground transition-colors">Industries</a>
           <a href="#services" className="hover:text-primary-foreground transition-colors">Services</a>
           <a href="#delivery" className="hover:text-primary-foreground transition-colors">Delivery</a>
+          <a href="#about" className="hover:text-primary-foreground transition-colors">About Us</a>
           <a href="#contact" className="px-4 py-2 bg-copper text-primary-foreground rounded hover:bg-copper-light transition-colors">
             Contact
           </a>
@@ -31,6 +32,7 @@ const Header = () => {
             <a href="#industries" onClick={() => setMobileOpen(false)} className="hover:text-primary-foreground py-1">Industries</a>
             <a href="#services" onClick={() => setMobileOpen(false)} className="hover:text-primary-foreground py-1">Services</a>
             <a href="#delivery" onClick={() => setMobileOpen(false)} className="hover:text-primary-foreground py-1">Delivery</a>
+            <a href="#about" onClick={() => setMobileOpen(false)} className="hover:text-primary-foreground py-1">About Us</a>
             <a href="#contact" onClick={() => setMobileOpen(false)} className="mt-2 px-4 py-2 bg-copper text-primary-foreground rounded text-center hover:bg-copper-light transition-colors">Contact</a>
           </div>
         </div>
