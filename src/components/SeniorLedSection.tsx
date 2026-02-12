@@ -1,40 +1,37 @@
 import { MapPin } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const AboutSection = () => {
+  const { t } = useLanguage();
+
+  const bullets = [
+    t("about.bullet1"),
+    t("about.bullet2"),
+    t("about.bullet3"),
+    t("about.bullet4"),
+  ];
+
   return (
     <section id="about-us" className="bg-card border-b border-border">
       <div className="container py-20">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div>
-            <p className="text-xs font-semibold text-copper uppercase tracking-[0.2em] mb-3">About Us</p>
-
-            <h2 className="font-display text-2xl lg:text-3xl mb-4">
-              Your project doesn't get handed off. It gets our full attention.
-            </h2>
-            <p className="text-muted-foreground leading-relaxed mb-6 max-w-lg">
-              Black Box Engineering is a senior-led controls engineering firm. The people who scope your project are the same people who design, program, and commission it. No layers, no hand-offs, no learning curve at your expense.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              We're headquartered in Mexico City with active operations in Texas — positioned to serve clients across North America and beyond. Our team brings decades of combined experience across critical infrastructure, industrial automation, and process controls.
-            </p>
+            <p className="text-xs font-semibold text-copper uppercase tracking-[0.2em] mb-3">{t("about.label")}</p>
+            <h2 className="font-display text-2xl lg:text-3xl mb-4">{t("about.headline")}</h2>
+            <p className="text-muted-foreground leading-relaxed mb-6 max-w-lg">{t("about.p1")}</p>
+            <p className="text-muted-foreground leading-relaxed mb-8 max-w-lg">{t("about.p2")}</p>
             <ul className="space-y-4 mb-10">
-              {[
-                "Direct access to decision-makers throughout the project",
-                "Consistent technical leadership from scope through turnover",
-                "No subcontracted engineering or offshore drafting",
-                "Bilingual project delivery (English / Spanish)",
-              ].map((item) => (
+              {bullets.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-muted-foreground">
                   <span className="mt-1 h-2 w-2 rounded-sm bg-copper flex-shrink-0" />
                   {item}
                 </li>
               ))}
             </ul>
-
             <div className="flex items-start gap-3 text-sm text-muted-foreground border-t border-border pt-6">
               <MapPin className="h-4 w-4 text-copper mt-0.5 flex-shrink-0" />
               <div>
-                <p className="font-semibold text-foreground mb-0.5">Headquarters</p>
+                <p className="font-semibold text-foreground mb-0.5">{t("about.hq")}</p>
                 <p>Gral. Benjamín Hill 97-2, Hipódromo Condesa,<br />Cuauhtémoc, 06170 Ciudad de México, CDMX</p>
               </div>
             </div>
