@@ -118,28 +118,28 @@ const translations: Record<string, Record<Language, string>> = {
     es: "Programación de PLC/SCADA/HMI, validación, FAT/SAT e integración de sistemas.",
   },
   "services.electrical.title": {
-    en: "Electrical Installation (Controls / BMS)",
-    es: "Instalación Eléctrica (Controles / BMS)",
+    en: "Controls Electrical Installation & Integration",
+    es: "Instalación e Integración Eléctrica de Controles",
   },
   "services.electrical.desc": {
-    en: "Controls-focused electrical installation aligned with engineered designs and project standards.",
-    es: "Instalación eléctrica enfocada en controles, alineada con diseños de ingeniería y estándares del proyecto.",
+    en: "Installation and integration of control panels, field devices, instrumentation, and network infrastructure aligned with engineered control strategies and project standards.",
+    es: "Instalación e integración de tableros de control, dispositivos de campo, instrumentación e infraestructura de red, alineados con las estrategias de control y estándares del proyecto.",
   },
   "services.commissioning.title": {
     en: "Commissioning & Startup Support",
     es: "Comisionamiento y Soporte de Arranque",
   },
   "services.commissioning.desc": {
-    en: "L1–L4/IST commissioning, logic validation, functional testing, and turnover readiness for operations.",
-    es: "Comisionamiento L1–L4/IST, validación de lógica, pruebas funcionales y preparación de entrega para operaciones.",
+    en: "Control system commissioning, logic validation, functional testing, point-to-point verification, and coordinated startup support aligned with engineered sequences and project requirements.",
+    es: "Comisionamiento de sistemas de control, validación de lógica, pruebas funcionales, verificación punto a punto y soporte coordinado de arranque, alineados con las secuencias de control y requisitos del proyecto.",
   },
   "services.mccx.title": {
     en: "Mission-Critical Commissioning",
-    es: "Comisionamiento de Misión Crítica",
+    es: "Comisionamiento de Infraestructura Crítica",
   },
   "services.mccx.desc": {
-    en: "Specialized commissioning for data centers, hospitals, and critical facilities — including integrated systems testing, redundancy validation, and load transfer verification.",
-    es: "Comisionamiento especializado para centros de datos, hospitales e instalaciones críticas — incluyendo pruebas de sistemas integrados, validación de redundancia y verificación de transferencia de carga.",
+    en: "L1–L4 commissioning and Integrated Systems Testing (IST) for mission-critical facilities, including redundancy validation, failure scenario simulation, load transfer verification, and turnover readiness.",
+    es: "Comisionamiento L1–L4 y pruebas integrales de sistemas (IST) para instalaciones críticas, incluyendo validación de redundancia, simulación de fallas, verificación de transferencia de carga y preparación para la entrega operativa.",
   },
   "services.bim.title": {
     en: "BIM & 3D Coordination",
