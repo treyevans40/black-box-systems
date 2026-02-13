@@ -26,8 +26,8 @@ const translations: Record<string, Record<Language, string>> = {
     es: "Diseñado. Integrado. Comisionado. Documentado.",
   },
   "hero.location": {
-    en: "Mexico City HQ \u2022 Operations in Texas \u2022 Serving clients globally",
-    es: "Sede en CDMX \u2022 Operaciones en Texas \u2022 Servicio global",
+    en: "Mexico City Based \u2022 Operating Across North America",
+    es: "Con base en la Ciudad de México \u2022 Operando en Norteamérica",
   },
   "hero.cta": { en: "Request Consultation", es: "Solicitar Consulta" },
   "hero.services": { en: "View Services", es: "Ver Servicios" },
@@ -212,24 +212,24 @@ const translations: Record<string, Record<Language, string>> = {
     es: "Tu proyecto no se delega. Recibe toda nuestra atención.",
   },
   "about.p1": {
-    en: "Black Box Engineering is a senior-led controls engineering firm. The people who scope your project are the same people who design, program, and commission it. No layers, no hand-offs, no learning curve at your expense.",
-    es: "Black Box Engineering es una firma de ingeniería de control liderada por profesionales senior. Las personas que definen el alcance de tu proyecto son las mismas que lo diseñan, programan y comisionan. Sin capas intermedias, sin traspasos, sin curva de aprendizaje a tu costo.",
+    en: "Black Box Engineering is a senior-led controls engineering firm. Projects are defined and technically directed by experienced engineers, with consistent leadership from scope through commissioning. No unnecessary layers. No learning curve at your expense.",
+    es: "Black Box Engineering es una firma de ingeniería de control liderada por profesionales senior. Los proyectos se definen y supervisan técnicamente por ingenieros con experiencia, con liderazgo consistente desde el alcance hasta la puesta en marcha. Sin capas innecesarias. Sin curva de aprendizaje a tu costo.",
   },
   "about.p2": {
-    en: "We're headquartered in Mexico City with active operations in Texas — positioned to serve clients across North America and beyond. Our team brings decades of combined experience across critical infrastructure, industrial automation, and process controls.",
-    es: "Nuestra sede está en la Ciudad de México con operaciones activas en Texas — posicionados para atender clientes en toda Norteamérica y más allá. Nuestro equipo suma décadas de experiencia combinada en infraestructura crítica, automatización industrial y control de procesos.",
+    en: "We are headquartered in Mexico City and operate across North America, supporting mission-critical and industrial projects wherever they’re built.",
+    es: "Nuestra sede está en la Ciudad de México y operamos en Norteamérica, apoyando proyectos de infraestructura crítica y automatización industrial donde se requiera.",
   },
   "about.bullet1": {
-    en: "Direct access to decision-makers throughout the project",
-    es: "Acceso directo a quienes toman las decisiones durante todo el proyecto",
+    en: "Senior-led technical direction",
+    es: "Dirección técnica liderada por ingenieros senior",
   },
   "about.bullet2": {
-    en: "Consistent technical leadership from scope through turnover",
-    es: "Liderazgo técnico consistente desde el alcance hasta la entrega",
+    en: "Defined ownership from scope through turnover",
+    es: "Responsabilidad definida desde el alcance hasta la entrega final",
   },
   "about.bullet3": {
-    en: "No subcontracted engineering or offshore drafting",
-    es: "Sin ingeniería subcontratada ni dibujo técnico offshore",
+    en: "Integrated controls engineering and field execution",
+    es: "Ingeniería de control integrada con ejecución en campo",
   },
   "about.bullet4": {
     en: "Bilingual project delivery (English / Spanish)",
@@ -243,8 +243,8 @@ const translations: Record<string, Record<Language, string>> = {
     es: "Hablemos de lo que sigue — o de lo que no está funcionando hoy.",
   },
   "cta.description": {
-    en: "Whether you're planning a new build, optimizing existing operations, or dealing with controls problems that won't go away — we start every conversation by listening. No sales pitch. Tell us your pain points, your timeline, your budget constraints. We'll tell you what's realistic and how to reduce your operational spend.",
-    es: "Ya sea que estés planeando una obra nueva, optimizando operaciones existentes o lidiando con problemas de control que no se resuelven — empezamos cada conversación escuchando. Sin discurso de ventas. Cuéntanos tus puntos de dolor, tus tiempos, tus restricciones de presupuesto. Te diremos qué es realista y cómo reducir tu gasto operativo.",
+    en: "From new builds to operational challenges, we deliver senior-led controls engineering designed for systems that have to run — reliably and continuously.",
+    es: "Desde obra nueva hasta retos en operación, ofrecemos ingeniería de control liderada por especialistas senior, diseñada para sistemas que deben operar de forma continua y confiable.",
   },
   "cta.button": { en: "Request Consultation", es: "Solicitar Consulta" },
 
@@ -254,8 +254,8 @@ const translations: Record<string, Record<Language, string>> = {
     es: `© ${new Date().getFullYear()} Black Box Engineering`,
   },
   "footer.location": {
-    en: "Mexico City · Texas · Global",
-    es: "Ciudad de México · Texas · Global",
+    en: "Mexico City · North America",
+    es: "Ciudad de México · Norteamérica",
   },
 };
 
