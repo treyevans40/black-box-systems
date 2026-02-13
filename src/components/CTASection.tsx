@@ -14,7 +14,7 @@ const CTASection = () => {
             {t("cta.description")}
           </p>
           <a
-            href="mailto:info@blackboxengineering.com"
+            href="mailto:info@blackboxeng.com"
             className="inline-flex items-center justify-center px-10 py-3.5 bg-primary text-primary-foreground font-medium rounded hover:bg-navy-light transition-colors"
           >
             {t("cta.button")}
