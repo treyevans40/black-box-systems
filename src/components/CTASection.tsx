@@ -11,7 +11,7 @@ const CTASection = () => {
             {t("cta.headline")}
           </h2>
           <p className="text-primary-foreground/80 mb-10">
-            Planning a new build or solving persistent controls issues, we start by listening. Tell us your constraints. We’ll tell you what’s realistic.
+            {t("cta.description")}
           </p>
           <a
             href="mailto:info@blackboxengineering.com"

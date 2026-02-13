@@ -1,52 +1,16 @@
 import { Cog, Monitor, Zap, CheckSquare, Shield, Box, Network, FileText, Wrench } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-const services = [
-  {
-    icon: Cog,
-    title: "Controls Engineering Design Services",
-    description: "Core control system design deliverables that reduce project risk, align all trades, and support coordinated execution.",
-  },
-  {
-    icon: Monitor,
-    title: "Controls Engineering Implementation",
-    description: "PLC/SCADA/HMI programming, validation, FAT/SAT, and system integration.",
-  },
-  {
-    icon: Zap,
-    title: "Electrical Installation (Controls)",
-    description: "Controls-focused electrical installation aligned with engineered designs and project standards.",
-  },
-  {
-    icon: CheckSquare,
-    title: "Commissioning & Startup Support",
-    description: "Commissioning, logic validation, functional testing, and turnover readiness for operations.",
-  },
-  {
-    icon: Shield,
-    title: "Mission-Critical Commissioning",
-    description: "End-to-end commissioning for data centers, healthcare, and critical infrastructure;-- covering L1–L4 levels, Integrated Systems Testing (IST), failure scenario validation, redundancy verification, and full load transfer performance testing.",
-  },
-  {
-    icon: Wrench,
-    title: "BIM & 3D Coordination",
-    description: "System routing, clash avoidance, model integration, and coordinated trade workflows.",
-  },
-  {
-    icon: Box,
-    title: "Panel Fabrication",
-    description: "UL508A / NOM-certified control panel design and fabrication aligned with project standards and site requirements.",
-  },
-  {
-    icon: Network,
-    title: "Network Architecture & OT Infrastructure",
-    description: "Controls network design, switch configuration, IP schema, segmentation, and secure field connectivity.",
-  },
-  {
-    icon: FileText,
-    title: "Documentation & Turnover Packages",
-    description: "I/O matrices, workflow scripts, redlines, O&M documentation, and full as-built systems packages.",
-  },
+const serviceKeys = [
+  { icon: Cog, titleKey: "services.design.title", descKey: "services.design.desc" },
+  { icon: Monitor, titleKey: "services.implementation.title", descKey: "services.implementation.desc" },
+  { icon: Zap, titleKey: "services.electrical.title", descKey: "services.electrical.desc" },
+  { icon: CheckSquare, titleKey: "services.commissioning.title", descKey: "services.commissioning.desc" },
+  { icon: Shield, titleKey: "services.mccx.title", descKey: "services.mccx.desc" },
+  { icon: Wrench, titleKey: "services.bim.title", descKey: "services.bim.desc" },
+  { icon: Box, titleKey: "services.panel.title", descKey: "services.panel.desc" },
+  { icon: Network, titleKey: "services.network.title", descKey: "services.network.desc" },
+  { icon: FileText, titleKey: "services.docs.title", descKey: "services.docs.desc" },
 ];
 
 const ServicesSection = () => {

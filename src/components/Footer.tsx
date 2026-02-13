@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
             <span>{t("footer.copyright")}</span>
             <span className="hidden sm:inline">·</span>
-            <span>Mexico City, DF, Mexico · Houston, Texas, USA · Global</span>
+            <span>{t("footer.location")}</span>
           </div>
           <div className="flex gap-6">
             <a href="#industries" className="hover:text-primary-foreground transition-colors">{t("nav.industries")}</a>
